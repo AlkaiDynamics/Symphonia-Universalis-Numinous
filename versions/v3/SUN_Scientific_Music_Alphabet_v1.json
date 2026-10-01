@@ -1,0 +1,194 @@
+{
+  "name": "SUN Scientific Music Alphabet",
+  "version": "1.0",
+  "date": "2026-09-30",
+  "count": 22,
+  "partition": {
+    "constructors": 3,
+    "transitions": 7,
+    "relations": 12
+  },
+  "inclusion_rule": "music-native generative mechanisms + constitutive structural relation types",
+  "excluded_observer_layer": [
+    "SRG-09"
+  ],
+  "entries": [
+    {
+      "alphabet_id": "ALPHA-01",
+      "registry_id": "MEC-06",
+      "role_class": "CONSTITUTIVE_CONSTRUCTOR",
+      "name": "EUCLIDEAN_DISTRIBUTION_CONSTRUCTOR",
+      "status": "FROZEN_SINGLETON_CLASS",
+      "canonical": "E(k,n) -> cyclic n-slot binary pattern with k evenly distributed onsets"
+    },
+    {
+      "alphabet_id": "ALPHA-02",
+      "registry_id": "MEC-07",
+      "role_class": "CONSTITUTIVE_CONSTRUCTOR",
+      "name": "MODULAR_BOOLEAN_SIEVE_CONSTRUCTOR",
+      "status": "FROZEN_SINGLETON_CLASS",
+      "canonical": "residue classes M_r combined by union/intersection/complement"
+    },
+    {
+      "alphabet_id": "ALPHA-03",
+      "registry_id": "MEC-09",
+      "role_class": "CONSTITUTIVE_CONSTRUCTOR",
+      "name": "JOINT_CONSTITUTION_HYPEREDGE",
+      "status": "FROZEN_EQUIVALENCE_CLASS",
+      "canonical": "J(x1,...,xk) => M"
+    },
+    {
+      "alphabet_id": "ALPHA-04",
+      "registry_id": "MEC-01",
+      "role_class": "TRANSITION_ACTION",
+      "name": "SCALAR_MULTIPLICATIVE_ACTION",
+      "status": "FROZEN_EQUIVALENCE_CLASS",
+      "canonical": "S_c(x)=c x, c>0"
+    },
+    {
+      "alphabet_id": "ALPHA-05",
+      "registry_id": "MEC-02",
+      "role_class": "TRANSITION_ACTION",
+      "name": "DIHEDRAL_D12_ACTION",
+      "status": "FROZEN_EQUIVALENCE_CLASS",
+      "canonical": "<s,t | s^12=e, t^2=e, tst=s^-1>"
+    },
+    {
+      "alphabet_id": "ALPHA-06",
+      "registry_id": "MEC-03",
+      "role_class": "TRANSITION_ACTION",
+      "name": "REVERSAL_INVOLUTION",
+      "status": "FROZEN_EQUIVALENCE_CLASS",
+      "canonical": "J_n(x)_j=x_{n-1-j}, J_n^2=id"
+    },
+    {
+      "alphabet_id": "ALPHA-07",
+      "registry_id": "MEC-04",
+      "role_class": "TRANSITION_ACTION",
+      "name": "PARTIAL_ADDRESS_REPRESENTATION_TRANSITION",
+      "status": "FROZEN_SINGLETON_CLASS",
+      "canonical": "m:(object,address_a) \u21c0 (same_object,address_b)"
+    },
+    {
+      "alphabet_id": "ALPHA-08",
+      "registry_id": "MEC-05",
+      "role_class": "TRANSITION_ACTION",
+      "name": "CYCLIC_INDEX_ROTATION",
+      "status": "FROZEN_SINGLETON_CLASS",
+      "canonical": "rho_k(x_0,...,x_{n-1})=(x_k,...,x_{k-1})"
+    },
+    {
+      "alphabet_id": "ALPHA-09",
+      "registry_id": "MEC-08",
+      "role_class": "TRANSITION_ACTION",
+      "name": "LOCAL_DURATION_ADDED_VALUE_TRANSFORM",
+      "status": "FROZEN_SINGLETON_CLASS",
+      "canonical": "d_i -> d_i + \u03b4, or insert short note/rest/dot-derived duration"
+    },
+    {
+      "alphabet_id": "ALPHA-10",
+      "registry_id": "MEC-10",
+      "role_class": "TRANSITION_ACTION",
+      "name": "CONDITIONAL_NEXT_EVENT_KERNEL",
+      "status": "FROZEN_EQUIVALENCE_CLASS",
+      "canonical": "K(context,y)=P(next=y | context)"
+    },
+    {
+      "alphabet_id": "ALPHA-11",
+      "registry_id": "SRG-01",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "PATH_TRAJECTORY",
+      "status": "STRUCTURAL_NON_GENERATOR",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-12",
+      "registry_id": "SRG-02",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "RECURRENCE_CYCLE",
+      "status": "STRUCTURAL_NON_GENERATOR",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-13",
+      "registry_id": "SRG-03",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "TYPED_BOUNDARY",
+      "status": "STRUCTURAL_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-14",
+      "registry_id": "SRG-04",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "HIERARCHY_REDUCTION",
+      "status": "EXECUTABLE_SCHEMA_NOT_TOTAL_NATIVE_MAP",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-15",
+      "registry_id": "SRG-05",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "MAPPING_EQUIVALENCE",
+      "status": "RECEIPT_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-16",
+      "registry_id": "SRG-06",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "INVARIANT_FIXED_POINT",
+      "status": "PREDICATE_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-17",
+      "registry_id": "SRG-07",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "MEASURE_RATIO_DISTANCE",
+      "status": "MEASURE_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-18",
+      "registry_id": "SRG-08",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "EVENT_REALIZATION",
+      "status": "REALIZATION_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-19",
+      "registry_id": "SRG-10",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "RESIDUAL_CLOSURE",
+      "status": "VALIDATION_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-20",
+      "registry_id": "SRG-11",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "ORBIT_STABILIZER",
+      "status": "DERIVED_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-21",
+      "registry_id": "SRG-12",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "ADDRESS_HISTORY_CONTEXT",
+      "status": "IDENTITY_BEARING_METADATA_RELATION",
+      "canonical": null
+    },
+    {
+      "alphabet_id": "ALPHA-22",
+      "registry_id": "SRG-13",
+      "role_class": "STRUCTURAL_RELATION",
+      "name": "TOPOLOGY_PRESERVATION",
+      "status": "SOURCE_SUPPORTED_INVARIANT; NO UNIVERSAL ITERATION LAW",
+      "canonical": null
+    }
+  ],
+  "freeze_order": "FROZEN_BEFORE_TEMPLATE_COMPARISON"
+}
